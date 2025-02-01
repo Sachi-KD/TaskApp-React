@@ -26,6 +26,7 @@ const App = () => {
     < TaskForm setTasks={setTasks} />
       <main className='app_main'>
         <h1>HI</h1>
+        <h1>buruwa</h1>
         < TaskColumn title="To do"  icon={todoIcon} tasks={tasks} status="todo" handleDelete={handleDelete} />
         < TaskColumn title="Doing" icon={doingIcon} tasks={tasks} status="doing" handleDelete={handleDelete} />
         < TaskColumn  title="Done" icon={doneIcon} tasks={tasks} status="done" handleDelete={handleDelete} />
